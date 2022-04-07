@@ -207,11 +207,12 @@ h1 {
 }
 
 footer {
+  width: 100%;
   margin-top: 25px;
   height: 50px;
   background-color: black;
   padding-bottom: 25px;
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 footer .contact {
   font-family: "Playfair Display";
@@ -250,7 +251,6 @@ footer .contact p {
 }
 /* GALLERIE */
 #galerieSection {
-  margin-top: -50px;
   background-image: url("cookomiepictures/271384947_663643801319605_9206680914458395068_n.jpg");
 }
 
@@ -327,7 +327,7 @@ footer .contact p {
 }
 
 /* Format téléphone */
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 1024px) {
   #nav {
     flex-direction: column;
   }
@@ -366,24 +366,31 @@ footer .contact p {
   }
   .mainContain .leftPart {
     margin: auto;
-    width: 90%;
+    width: 95%;
   }
   .mainContain .leftPart__philosophie {
     height: 750px;
   }
   .mainContain .leftPart__balade {
+    margin-top: 25px;
     height: 750px;
   }
   .mainContain .rightPart {
     margin: auto;
-    margin-top: 25px;
-    width: 90%;
+    margin-top: 50px;
+    width: 95%;
     height: 750px;
   }
 
   .philoComment, .menuComment, .chefComment {
     width: 95%;
     font-size: 2.1em;
+  }
+
+  footer {
+    font-size: 1.5em;
+    bottom: 0;
+    position: fixed;
   }
 }
 

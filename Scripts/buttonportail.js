@@ -77,7 +77,6 @@ circleMenu.addEventListener("click", function() {
     chefPart.style.backgroundImage = "url(cookomiepictures/roseH.jpg)";
     philoPart.style.display="none";
     menuPart.style.height="100%";
-    titleMenuDeux.textContent="Balade végétale"
     moinsMenu.addEventListener("click", function() {
         titleChef.style.display = "";
         menuComment.style.display = "none";
@@ -86,6 +85,5 @@ circleMenu.addEventListener("click", function() {
         chefPart.style.backgroundImage = "url(cookomiepictures/jo.jpg)";
         philoPart.style.display="";
         menuPart.style.height="50%";
-        titleMenuDeux.textContent="NOS MENUS"
     });
 });

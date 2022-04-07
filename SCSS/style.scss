@@ -91,14 +91,14 @@ body {
 
 h1 {
     width: 80%;
-    font-family: 'Playfair Display';
+    font-family: 'Cormorant Garamond';
     font-size: 3em;
     color: white;
     text-shadow: 0 0 4px black;
 }
 #nav {
     border-bottom: 1px solid black;
-    margin-bottom: 25px;
+    margin-bottom: -10px;
     padding-bottom: 10px;
     padding-top: 10px;
     display: flex;
@@ -118,8 +118,7 @@ h1 {
         }
     }
     .galleryLogo {
-        margin-top: -7px;
-        font-family: 'Playfair Display';
+        font-family: 'Cormorant Garamond';
         font-size: 1.7em;
         cursor: pointer;
         padding-right: 50px;
@@ -145,8 +144,13 @@ h1 {
 
 /* Contenant principal des trois sections : */
 
+#backgroundMain {
+    padding-top: 40px;
+    background-image: url("cookomiepictures/271384947_663643801319605_9206680914458395068_n.jpg");
+    background-repeat: repeat;
+}
+
 .mainContain{
-    margin-top: -200px;
     z-index: 1;
     display: flex;
     min-height: 800px;
@@ -170,7 +174,6 @@ h1 {
             background-image: url("cookomiepictures/255677956_191797669790144_389907740832195763_n.jpg");
             background-size: cover;
             h1 {
-                background-color: black;
                 text-align: right;
                 padding-right: 25px;
             }
@@ -325,3 +328,65 @@ footer{
         height: 50%;
     }
 }
+
+/* Format téléphone */
+
+@media screen and (min-width: 900px) {
+    #nav {
+        flex-direction: column;
+        img {
+            margin :auto;
+            width: 80%;
+        }
+        .reseauxSociaux {
+            text-align: center;
+            margin: auto;
+            margin-left: -30px;
+            font-size: 3em;
+            .fa-instagram, .fa-facebook-square, .fa-envelope-square {
+                padding-right: 50px;
+                padding-left: 50px;
+            }
+            .fa-instagram {
+                margin-left: -45px;
+            }
+        }
+        .galleryLogo{
+            .galerieMobile{
+                display: none;
+            }
+            .fa-images {
+                border-right: 1px solid black;
+                padding-right: 50px;
+            }
+        }
+    }
+    .mainContain {
+        height: 100%;
+        flex-direction: column;
+        h1 {
+            font-size: 5.2em;
+            text-shadow: 0 0 10px black;
+        }
+        .leftPart {
+            margin: auto;
+            width: 90%;
+            &__philosophie {
+                height: 750px;
+            }
+            &__balade {
+                height: 750px;
+            }
+        }
+        .rightPart {
+            margin: auto;
+            margin-top: 25px;
+            width: 90%;
+            height: 750px;
+        }
+    }
+    .philoComment, .menuComment, .chefComment {
+        width: 95%;
+        font-size: 2.1em;
+    }
+  }

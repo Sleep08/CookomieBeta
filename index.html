@@ -9,20 +9,12 @@
     <script src="https://kit.fontawesome.com/e537cf3103.js" crossorigin="anonymous"></script>    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Mono:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav role="navigation" id="nav">
-        <img src="cookomiepictures/newLogo.png">
-        <div class="reseauxSociaux">
-            <div class="galleryLogo"><a href="galerie.html"><span class="galerieMobile">Galerie</span> <i class="fa-solid fa-images"></i></a></div>
-            <a href="https://www.instagram.com/Cookomie/?fbclid=IwAR1gWDICmiAar3u13rxVs4RD0-G54AB9TKu-8ExkhN0VbWMQjPI9IOJ0G9A"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.facebook.com/profile.php?id=100068797375319"><i class="fab fa-facebook-square"></i></a>
-            <a href="mailto:Cookomie@gmail.com"><i class="fas fa-envelope-square"></i></a>
-        </div>
-    </nav>
     <div class="portail">
         <div class="portail__contain">
+            <div class="containLetters">
         <p class="portail__lettre portail__lettre--C">C</p>
         <p class="portail__lettre portail__lettre--O">O</p>
         <p class="portail__lettre portail__lettre--Odeux">O</p>
@@ -31,73 +23,167 @@
         <p class="portail__lettre portail__lettre--M">M</p>
         <p class="portail__lettre portail__lettre--I">I</p>
         <p class="portail__lettre portail__lettre--E">E</p>
+            </div>    
         </div>
         <div class="buttonDiscover">
         <button type="button">DISCOVER</button>
         </div>
     </div>
+    <nav role="navigation" id="nav">
+        <p>COOKOMIE</p>
+        <div class="buttonMenu"><i class="fa-solid fa-bars"></i></div>
+        <div id="cookomieMenu">
+            <ul>
+                <li>Philosophie cookomie</li>
+                <li>Votre cheffe</li>
+                <li>Balade végétale</li>
+                <li>Galerie</li>
+            </ul>
+        </div>
+    </nav>
     <!--Page principale contenant le contenu descriptif / textes-->
-    <main id="backgroundMain">
+    <main id="accueil">
         <!--Contenant principal pour l'ensemble des div-->
-        <section class="mainContain">
-            <!--Partie gauche contenant deux parties-->
-            <div class="leftPart">
-                <!--Partie supérieure gauche-->
-                <div class="leftPart__philosophie">
-                    <h1 id="titlePhilo">LA PHILOSOPHIE COOKOMIE<span id="plusPhilosophie"><i class="fa-solid fa-circle-plus" id="plusCirclePhilo"></i></span></h1>
-                    <p class="philoComment">
-                        Cookomie est votre service de Chef à domicile qui a pour
-                        philosophie une cuisine 100% végétale : riche, gourmande, saine et intéréssante pour les curieux.
-                        La cuisine végétarienne non seulement riche historiquement, permet de découvrir un autre style alimentaire
-                        et donc un autre mode de vie. le "régime de Pythagore" autrement dit, ne s'arrête pas seulement à notre alimentation
-                        , celà va plus loin.</br>Une philosophie de vie.</br>Une pensée différente.</br>Pourquoi ne pas s'y aventurer ensemble ?
-                        Une prestation complète est proposée, de la confection culinaire, au service à table jusqu'au rangement.</br>A bientôt, pour une aventure culinaire !</p>
-                </div>
-                <!--Partie inférieure gauche-->
-                <div class="leftPart__balade">
-                    <h1 id="titleMenu"><span id="titleMenuDeux">Balade Végétale</span><span id="plusMenu"><i class="fa-solid fa-circle-plus" id="plusCircleMenu"></i></span></h1>
-                </div>
+        <div class="galleryMenu"><div class="carre"></div><p>galerie</p></div>
+
+        <div class="photosSections">
+            <div class="sectionOne">
+                <img src="cookomiepictures/philosophieCookomie.jpg">
+                <h1 class="philosophie">Philosophie Cookomie</h1>
             </div>
-            <!--Partie droite contenant une partie-->
-            <div class="rightPart">
-                <h1 id="titleChef">VOTRE CHEFFE<span id="plusChef"><i class="fa-solid fa-circle-plus" id="plusCircleChef"></i></span></h1>
-                <p class="chefComment">
-                    Laissez-moi vous partager une petite introduction sur ma personne.</br></br>
-Je suis une Franco-Suisse et Philippine de bientôt 33 ans, aussi originaire de Genève. Je suis près des fourneaux depuis maintenant 13 ans. C'est à mes 20 ans, que j'intègre une école culinaire pour la première fois, soit assez tardivement. Auparavant, j’avais entamé un cursus universitaire en histoire de l’art et archéologie.</br></br>
-Un monde fascinant, autant que celui de la cuisine ? Certainement, mais à mes yeux, bien moins palpitant. J’ai donc entrepris un CAP Cuisine en France à Montpellier avant de voyager un peu partout pour découvrir de différentes techniques culinaires, mais aussi la richesse des différents produits que la Terre ou la mer pouvait nous réserver.</br></br>
-Je reste toujours une apprentie, la gastronomie est vaste et on en apprend tous les jours : à travers nous, en cuisinant ou bien à travers les autres.</br></br>
-C’est un métier difficile, mais Ô Combien gratifiant. Convaincue, je me suis tout doucement orientée vers une cuisine beaucoup plus végétale. Je reste persuadée qu’à notre échelle, aussi petite qu’elle soit, participer au bien-être de notre terre d’accueil, par des actes réfléchis et responsable reste une évidence. Cookomie naîtra donc cet été 2021. De belles rencontres, de riches expériences m’attendent encore et cela grâce à vous. Beaucoup de Gratitude. Un grand merci à vous suivant les prémices de Cookomie. De l’amour, et de la paix à chacun)es) d’entre vous , Johanna- Cookomie
-                </p>
-                <p class="menuComment">
-                    Amuses-Bouches</br>
-                    ~</br>
-                    Carpaccio de concombre, sumac et poivres sauvages des montagnes</br>
-                    ~</br>
-                    Brocolis émiés, pointes et cacahuètes wasabi, citron confit</br>
-                    ~</br>
-                    Lamelle de courgette, crème matcha et Amandes grillées.</br>
-                    ~</br>
-                    Haricots vert façon tartare, Asian savoir</br>
-                    ~</br>
-                    Aubergine, café et fève de cacao</br>
-                    ~</br>
-                    Mousseline de panais, noisettes concassées, coriandre</br>
-                    ~</br>
-                    Demi-carotte parfumée à l'orange, poudre de fruits de Baobab</br>
-                    ~</br>
-                    Steack de courge et crumble à la baie verveine</br>
-                    ~</br>
-                    Risotto d'avoine</br>
-                    ~</br>
-                    Pavlova à la Myrtille</br></br>
-                    Ceci est un exemple de balade végétale adaptable selon</br>
-                    vos envies, vos goûts, votre envie de découverte, mais surtout</br>
-                    la Saison !
-                </p>
+            <div class="sectionTwo">
+                <img src="cookomiepictures/voschefs.jpg">
+                <h1 class="cheffe">Votre cheffe</h1>
             </div>
-        </section>
+            <div class="sectionThree">
+                <img src="cookomiepictures/baladevegetale.jpg">
+                <h1 class="baladevegetale">Balade végétale</h1>
+            </div>
+        </div>
+        <div class="citation">
+            <p class="citationTxt">
+                Il y a des vers qui, par leur caractère, semblent appartenir au règne minéral :</br> ils ont de la ductilité et de l'éclat d'autres, au règne végétal :</br> ils ont de la sève d'autres, enfin, au règne animal ou animé, et ils ont de la vie.</br> Les plus beaux sont ceux qui ont de l'âme ils appartiennent aux trois règnes,</br> mais à la muse encore plus.
+            </br></br><span class="legende">" Pensées (~1780 - 1824), Joseph Joubert, édition librairie vve le normant, 1850, t.2, p.35-36. "</span>
+            </p>
+        </div>
     </main>
+    <section id="galerieCookomie">
+        <div class="returnAccueil"><i class="fa-solid fa-arrow-left"></i></div>
+        <div class="galerieContenant">
+            <figure>
+                <img src="cookomiepictures/aspergesSauvage.jpg">
+                <figcaption>Asperges sauvages</figcaption>
+            </figure>
+            <figure>
+                <img src="cookomiepictures/bourguignon.jpg">
+                <figcaption>Bourguignon</figcaption>
+            </figure>
+            <figure>
+                <img src="cookomiepictures/brocolis.jpg">
+                <figcaption>Brocolis</figcaption>
+            </figure>
+            <figure>
+                <img src="cookomiepictures/cerfeuilTubereux.jpg">
+                <figcaption>Cerfeuil tubereux</figcaption>
+            </figure>
+            <figure>
+                <img src="cookomiepictures/chouFrise.jpg">
+                <figcaption>Chou frisé</figcaption>
+            </figure>
+            <figure>
+                <img src="cookomiepictures/fenouil.jpg">
+                <figcaption>Fenouil</figcaption>
+            </figure>
+            <figure>
+                <img src="cookomiepictures/matcha.jpg">
+                <figcaption>Matcha</figcaption>
+            </figure>
+            <figure>
+                <img src="cookomiepictures/panais.jpg">
+                <figcaption>Panais</figcaption>
+            </figure>
+            <figure>
+                <img src="cookomiepictures/petitsPois.jpg">
+                <figcaption>Petits pois</figcaption>
+            </figure>
+            <figure>
+                <img src="cookomiepictures/radis.jpg">
+                <figcaption>Radis</figcaption>
+            </figure>
+            <figure>
+                <img src="cookomiepictures/radisNoirs.jpg">
+                <figcaption>Radis noirs</figcaption>
+            </figure>
+            <figure>
+                <img src="cookomiepictures/ravioles.jpg">
+                <figcaption>Ravioles</figcaption>
+            </figure>
+            <figure>
+                <img src="cookomiepictures/rutabaga.jpg">
+                <figcaption>Rutabaga</figcaption>
+            </figure>
+            <figure>
+                <img src="cookomiepictures/rutabagaDeux.jpg">
+                <figcaption>Rutabaga</figcaption>
+            </figure>
+            <figure>
+                <img src="cookomiepictures/tarot.jpg">
+                <figcaption>Tarot</figcaption>
+            </figure>
+            <figure>
+                <img src="cookomiepictures/tomates.jpg">
+                <figcaption>Tomates</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section id="philosophieCookomie">
+        <div class="philoContain">
+            <div class="returnAccueilPhilo"><i class="fa-solid fa-arrow-left"></i></div>
+            <div class="imgContain">
+                <img src="cookomiepictures/philosophieCookomie.jpg">
+                <img src="cookomiepictures/aspergesSauvage.jpg">
+                <img src="cookomiepictures/matcha.jpg">
+            </div>
+            <div class="txtPhilo">
+                <p>
+                    COOKOMIE est votre service de Chef à domicile qui a pour
+                    philosophie</br> une cuisine <span class="végétale">100% végétale</span></br>
+                    <span class="adjectifs">riche, groumande, saine</span> et </br>
+                    intéréssante pour les curieux.</br>
+                    La cuisine végétarienne riche historiquement</br>
+                    permet de découvrir un autre style alimentaire et donc un autre <span class="modeDeVie"> de vie.</span></br>
+                    Le <span class="pythagore">" régime de Pythagore "</span> autrement dit, ne s'arrête pas seulement à notre </br>
+                    alimentation, celà va plus loin.</br>
+                    <span class="philoVie">Une philosophie de vie.</span></br>
+                    <span class="penseeDiff">Une pensée différente.</span></br>
+                    Pourquoi ne pas s'y mettre ensemble ?</br>
+                    Une prestation complète est proposée, de la confection culinaire, </br>
+                    au service à table jusqu'au rangement.</br>
+                    A bientôt pour une aventure culinaire !
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="votreCheffe">
+        <div class="cheffeContain">
+            <div class="returnAccueilCheffe"><i class="fa-solid fa-arrow-left"></i></div>
+            <img src="cookomiepictures/presentation.jpg">
+            <div class="txtCheffe">
+                <p>
+Je suis une Franco-Suisse et Philippine de bientôt 33 ans, aussi originaire de Genève.</br> Je suis près des fourneaux depuis maintenant 13 ans. C'est à mes 20 ans,</br> que j'intègre une école culinaire pour la première fois, soit assez tardivement.</br> Auparavant, j’avais entamé un cursus universitaire en histoire de l’art et archéologie.</br>
+Un monde fascinant, autant que celui de la cuisine ?</br> Certainement, mais à mes yeux, bien moins palpitant.</br> J’ai donc entrepris un CAP Cuisine en France à Montpellier</br> avant de voyager un peu partout pour découvrir de différentes techniques culinaires,</br> mais aussi la richesse des différents produits</br> que la Terre ou la mer pouvait nous réserver.</br>
+Je reste toujours une apprentie,</br> la gastronomie est vaste et on en apprend tous les jours :</br> à travers nous, en cuisinant ou bien à travers les autres.</br>
+C’est un métier difficile,</br> mais Ô Combien gratifiant.</br> Convaincue, je me suis tout doucement orientée vers une cuisine beaucoup plus végétale.</br> Je reste persuadée qu’à notre échelle,</br> aussi petite qu’elle soit,</br> participer au bien-être de notre terre d’accueil, par des actes réfléchis et responsable</br> reste une évidence.</br> Cookomie naîtra donc cet été 2021. </br>De belles rencontres, de riches expériences m’attendent encore et cela grâce à vous.</br> Beaucoup de Gratitude.</br> Un grand merci à vous suivant les prémices de Cookomie.</br> De l’amour, et de la paix à chacun)es) d’entre vous ,</br> Johanna- Cookomie
+                </p>
+            </div>
+        </div>
+    </section>
     <footer>
+        <div class="reseauxSociaux">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-solid fa-envelope"></i>
+        </div>
         <div class="contact">
             <p>CONTACT</p>
             <p>MENTIONS LEGALES</p>

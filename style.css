@@ -341,11 +341,13 @@ footer .contact p {
   font-size: 1.5em;
   font-weight: bold;
 }
+#philosophieCookomie .philoContain .txtPhilo p .imgMobile {
+  display: none;
+}
 
 /* Votre Cheffe */
 #votreCheffe .cheffeContain {
   text-align: center;
-  padding-bottom: 80px;
 }
 #votreCheffe .cheffeContain .returnAccueilCheffe {
   cursor: pointer;
@@ -359,15 +361,75 @@ footer .contact p {
 #votreCheffe .cheffeContain img {
   width: 400px;
   height: 400px;
+  margin-bottom: 85px;
 }
 #votreCheffe .cheffeContain .txtCheffe {
   margin: auto;
   width: 400px;
   font-family: "Roboto Mono";
   color: white;
+  margin-bottom: 80px;
 }
 #votreCheffe .cheffeContain .txtCheffe p {
   text-align: justify;
+}
+
+/* Balade Végétale */
+#baladeVegetale {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 85px;
+}
+#baladeVegetale .returnAccueilBalade {
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+#baladeVegetale .returnAccueilBalade i {
+  font-size: 1.5em;
+  color: white;
+}
+#baladeVegetale .baladeContain {
+  display: flex;
+}
+#baladeVegetale .baladeContain .imgContainBalade {
+  display: flex;
+  flex-direction: column;
+}
+#baladeVegetale .baladeContain .imgContainBalade img {
+  padding: 25px;
+  width: 250px;
+  height: 250px;
+}
+#baladeVegetale .baladeContain .txtBalade {
+  padding: 25px;
+  color: white;
+}
+#baladeVegetale .baladeContain .txtBalade .platUn, #baladeVegetale .baladeContain .txtBalade .platQuatre, #baladeVegetale .baladeContain .txtBalade .platSept, #baladeVegetale .baladeContain .txtBalade .platDix {
+  font-family: "Roboto";
+  font-size: 1.5em;
+  padding-bottom: 20px;
+}
+#baladeVegetale .baladeContain .txtBalade .platDeux, #baladeVegetale .baladeContain .txtBalade .platCinq, #baladeVegetale .baladeContain .txtBalade .platHuit, #baladeVegetale .baladeContain .txtBalade .platOnze {
+  font-family: "Roboto Mono";
+  font-size: 1.3em;
+  padding-bottom: 20px;
+}
+#baladeVegetale .baladeContain .txtBalade .platTrois, #baladeVegetale .baladeContain .txtBalade .platSix, #baladeVegetale .baladeContain .txtBalade .platNeuf {
+  font-family: "Dancing Script";
+  font-size: 1.6em;
+  padding-bottom: 20px;
+}
+#baladeVegetale .baladeContain .txtBalade .exempleBalade {
+  padding-top: 15px;
+  padding-left: 30px;
+  font-family: "Dancing Script";
+  font-size: 1.4em;
+  margin-top: 80px;
+  border-top: 1px solid white;
+  background-color: black;
+  color: white;
+  height: 60px;
 }
 
 /* Format téléphone */
@@ -434,8 +496,9 @@ footer .contact p {
     height: 400px;
   }
   #accueil .citation {
-    width: 50%;
-    margin-left: 10%;
+    width: 75%;
+    margin-left: 12%;
+    margin-bottom: 80px;
   }
   #accueil .citation .citationTxt {
     font-size: 2em;
@@ -445,6 +508,10 @@ footer .contact p {
     font-size: 1.5em;
     bottom: 0;
     position: fixed;
+  }
+  footer .reseauxSociaux i {
+    font-size: 1.6em;
+    margin-right: 50px;
   }
 
   /* Galerie Cookomie */
@@ -466,6 +533,7 @@ footer .contact p {
     width: 100%;
   }
   #galerieCookomie .galerieContenant {
+    margin-bottom: 80px;
     width: 90%;
     text-align: center;
     margin: auto;
@@ -509,11 +577,17 @@ footer .contact p {
   #philosophieCookomie .philoContain .imgContain {
     margin-top: 25px;
     text-align: center;
+    margin: auto;
+  }
+  #philosophieCookomie .philoContain .imgContain .imgSite {
+    display: none;
   }
   #philosophieCookomie .philoContain .imgContain img {
+    object-fit: cover;
+    margin: auto;
     padding: 25px;
-    width: 200px;
-    height: 200px;
+    width: 600px;
+    height: 400px;
   }
   #philosophieCookomie .philoContain .txtPhilo {
     font-size: 1.6em;
@@ -544,11 +618,17 @@ footer .contact p {
     font-size: 1.5em;
     font-weight: bold;
   }
+  #philosophieCookomie .philoContain .txtPhilo p .imgMobile {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+    width: 600px;
+    height: 400px;
+  }
 
   /* Votre Cheffe */
   #votreCheffe .cheffeContain {
     text-align: center;
-    padding-bottom: 80px;
   }
   #votreCheffe .cheffeContain .returnAccueilCheffe {
     cursor: pointer;
@@ -569,9 +649,57 @@ footer .contact p {
     width: 650px;
     font-family: "Roboto Mono";
     color: white;
+    padding-bottom: 170px;
   }
   #votreCheffe .cheffeContain .txtCheffe p {
     text-align: justify;
+  }
+
+  /* Balade Végétale */
+  #baladeVegetale {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 85px;
+  }
+  #baladeVegetale .returnAccueilBalade {
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 30px;
+  }
+  #baladeVegetale .returnAccueilBalade i {
+    margin-top: 25px;
+    font-size: 1.5em;
+    color: white;
+  }
+  #baladeVegetale .baladeContain {
+    padding-top: 50px;
+    display: flex;
+  }
+  #baladeVegetale .baladeContain .imgContainBalade {
+    display: flex;
+    flex-direction: column;
+  }
+  #baladeVegetale .baladeContain .imgContainBalade .imgBaladeSite {
+    display: none;
+  }
+  #baladeVegetale .baladeContain .imgContainBalade img {
+    padding: 25px;
+    width: 250px;
+    height: 250px;
+  }
+  #baladeVegetale .baladeContain .txtBalade {
+    font-size: 1.8em;
+  }
+  #baladeVegetale .baladeContain .txtBalade .exempleBalade {
+    padding-top: 15px;
+    padding-left: 30px;
+    font-family: "Dancing Script";
+    font-size: 1.4em;
+    margin-top: 80px;
+    border-top: 1px solid white;
+    background-color: black;
+    color: white;
+    height: 60px;
   }
 }
 

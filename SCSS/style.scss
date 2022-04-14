@@ -153,7 +153,6 @@ body {
 /* Section principale d'acceuil */
 
 #accueil {
-    animation: 3s fadeIn forwards;
     animation-delay: 2s;
     margin-top: 100px;
     padding-bottom: 150px;
@@ -563,7 +562,6 @@ footer{
 /* Votre Cheffe */
 
 #votreCheffe {
-    display: none;
     .cheffeContain {
         text-align: center;
         padding-bottom: 80px;

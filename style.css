@@ -239,6 +239,10 @@ footer .contact {
 footer .contact p {
   padding-left: 50px;
 }
+footer .contact p a {
+  color: black;
+  text-decoration: none;
+}
 
 /* Animation du portail */
 @keyframes fadeIn {
@@ -533,7 +537,7 @@ footer .contact p {
     width: 100%;
   }
   #galerieCookomie .galerieContenant {
-    margin-bottom: 80px;
+    padding-bottom: 125px;
     width: 90%;
     text-align: center;
     margin: auto;
@@ -668,7 +672,7 @@ footer .contact p {
   }
   #baladeVegetale .returnAccueilBalade i {
     margin-top: 25px;
-    font-size: 1.5em;
+    font-size: 2.5em;
     color: white;
   }
   #baladeVegetale .baladeContain {
@@ -693,6 +697,7 @@ footer .contact p {
   #baladeVegetale .baladeContain .txtBalade .exempleBalade {
     padding-top: 15px;
     padding-left: 30px;
+    padding-bottom: 80px;
     font-family: "Dancing Script";
     font-size: 1.4em;
     margin-top: 80px;

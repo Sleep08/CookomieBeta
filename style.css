@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background-image: url("cookomiepictures/ARDOISE_CARRE_NOIRE_MACRO-4.jpg");
+  background-image: url("/cookomiepictures/fondTrois.jpg");
   background-attachment: fixed;
   top: 0;
   margin-right: 0;
@@ -153,7 +153,6 @@ body a {
   position: relative;
 }
 #accueil .citation {
-  background-color: black;
   font-family: "Roboto Mono";
   font-size: 1.3em;
   font-weight: lighter;
@@ -433,7 +432,6 @@ footer .contact p a {
   font-size: 1.4em;
   margin-top: 80px;
   border-top: 1px solid white;
-  background-color: black;
   color: white;
   height: 60px;
 }
